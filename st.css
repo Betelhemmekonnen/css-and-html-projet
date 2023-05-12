@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+	.hea{
+		background-image: url(img/IMG_20211127_091525340~2.jpg);
+		height: 300px;
+	}
+	ul{
+	   text-align: right;
+	   list-style-type: none;
+	   position: relative;
+	   top:20px
+	}
+	li{
+		display:inline-block
+	}
+	li a{
+		text-decoration: none;
+		color:aliceblue;
+		font: 1em sans-serif;
+		padding: 5px;
+		margin: 5px;
+	}
+	li a:hover{
+		background-color: blanchedalmond;
+		color:black
+	 }
+	.hea .logo img{
+		position: absolute;
+		left: 40px;
+		top: 40px;
+		width: 40px;
+		height: 40px;
+	}
+	.hea .text{
+		position: absolute;
+		top: 25%;
+		left: 40%;
+		color: white;
+		text-align: center;
+	}
+	.hea h1{
+		font-size: 40px;
+		margin: 10px;
+	}
+	.hea button{
+		background-color:transparent;
+		color: white;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	.hea button:hover{
+		background-color: brown;
+	}
+	.gallery div{
+       width: 200px;
+	   height:200px;
+	   float: left;
+	   margin-top: 70px;
+	   margin-bottom: 70px;
+	   border-radius: 10px;
+	   padding: 10px;
+	   text-align: center;
+	   margin-left: 180px;
+	   background-color: pink;
+	}
+	/*.gallery .red{one one yemilutn yemiyz and div with red class mefter
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5%;
+		margin: 50px;
+	}*/
+	/*.red .one{
+		background-color: rgb(231, 157, 65);
+		border-radius: 10px;
+		padding: 20px 10px;
+		margin-bottom: 15px;
+		box-sizing: border-box;
+		flex-basis: 31%;
+		transition: 0.5s;
+	}*/
+	.one:hover{
+		box-shadow: 0px 0px 20px 0px black;
+        
+	}
+	.gallery h1{
+		text-align: center;
+		margin-top: 80px;
+		font-size: 40px;
+	}
+	.gallery p{
+		text-align: center;
+
+	}

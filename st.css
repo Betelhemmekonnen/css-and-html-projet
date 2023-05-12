@@ -3,8 +3,10 @@
 	padding: 0;
 	}
 	.hea{
-		background-image: url(img/IMG_20211127_091525340~2.jpg);
+		background-image: url(img/CODE.jpg);
 		height: 300px;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	ul{
 	   text-align: right;
@@ -17,7 +19,7 @@
 	}
 	li a{
 		text-decoration: none;
-		color:aliceblue;
+		color:aquamarine;
 		font: 1em sans-serif;
 		padding: 5px;
 		margin: 5px;
@@ -30,8 +32,8 @@
 		position: absolute;
 		left: 40px;
 		top: 40px;
-		width: 40px;
-		height: 40px;
+		width: 100px;
+		height: 100px;
 	}
 	.hea .text{
 		position: absolute;
@@ -44,16 +46,7 @@
 		font-size: 40px;
 		margin: 10px;
 	}
-	.hea button{
-		background-color:transparent;
-		color: white;
-		padding: 10px;
-		margin: 10px;
-		text-align: center;
-	}
-	.hea button:hover{
-		background-color: brown;
-	}
+	
 	.gallery div{
        width: 200px;
 	   height:200px;
@@ -64,7 +57,7 @@
 	   padding: 10px;
 	   text-align: center;
 	   margin-left: 180px;
-	   background-color: pink;
+	   background-color:rgb(158, 196, 183);
 	}
 	/*.gallery .red{one one yemilutn yemiyz and div with red class mefter
 		display: flex;

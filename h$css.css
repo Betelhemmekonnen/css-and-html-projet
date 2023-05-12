@@ -16,6 +16,7 @@
 	align-items: center;
     justify-content: center;
 	height: 100vh;
+	
 }
 .con2{
     flex: 1;
@@ -24,11 +25,27 @@
 	align-items: center;
 	justify-content: center;
 }
+.con2 a{
+	text-decoration: none;
+	color:black;
+	font-size: 1.5rem;
+	margin: 10px;
+}
+.con2 p{
+	font-size: 2rem;
+
+}
 .signin form{
-    width: 80px;
+    width: 100px;
 	padding-bottom: 3rem;
 }
-.signin .logo{
-	margin-bottom: 8vh;
+form .ff{
+	margin-top: 20px;
 }
 
+.signin .logo{
+	margin-bottom: 8vh;
+}.logo img{
+	width:100px;
+	height:100px
+}

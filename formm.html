@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		*{
+			box-sizing: border-box;
+		 }
+		div{
+			padding: 20px;
+		}
+		form {
+			box-shadow: 5px 5px 5px 5px black;
+		}
+		select,input{
+			width: 50%;
+            padding: 12px;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+            resize: vertical;
+		}
+		button{
+			background-color: black;
+			color: white;
+			float: right;
+			border-radius: 5px;
+		}
+		#kk {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+           }
+
+        #bb {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+          }
+
+		.row:after {
+             content: "";
+             display: table;
+             clear: both;
+          }
+
+	</style>
+	<div>
+		<h1>responsive login</h1>
+		</div>
+	<form action="#">
+		<div class="row">
+			<label for="kk" id="kk">firstname</label>
+			<input type="text" id="bb">
+		</div>
+       
+		<div class="row">
+			<label for="kk" id="kk">lastname</label>
+			<input type="text" id="bb">
+		</div>
+
+		<div class="row">
+			<label for="kk" id="kk">passsword</label>
+		    <input type="text" id="bb">
+		</div>
+		
+		<div class="row">
+			<label for="kk" id="kk">age</label>
+		    <input type="text" id="bb">
+		</div>
+		
+		<div class="row">
+			<label for="kk" id="kk">country</label>
+		<select name="contry" id="bb">
+			<option value="">ethiopia</option>
+			<option value="">america</option>
+			<option value="">japan</option>
+		</select>
+		</div>
+		<div>
+		    <button>submit</button>
+		</div>
+	</form>
+	
+</body>
+</html>
